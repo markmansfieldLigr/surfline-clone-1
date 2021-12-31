@@ -1,0 +1,19 @@
+/*  1 text colors */
+/* 2. base colors */
+
+:root {
+  /* 1. */
+
+  --dark--grey-text: var(--dark--grey);
+
+  /* 2. */
+  --primary-background-color: #0058b0;
+  --primary-background-alt-color: #048;
+  --primary-text-color: #fff;
+  --accent-background-color: #23d737;
+  --secondary-background: #fff;
+  --secondary-text: #ccc;
+  --secondary-text-alt: #333;
+  --tertiary-background-color:#011d38;
+  --tertiary-text-color: #FFFFFF;
+}

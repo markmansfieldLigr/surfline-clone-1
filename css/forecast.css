@@ -1,0 +1,120 @@
+@media screen and (max-width: 40.5em) {
+  .forecast-header__breadcrumb {
+    display: none;
+  }
+
+  .forecast-header {
+    position: relative;
+    width: 100%;
+  }
+
+  .forecast-header__main {
+    width: 100%;
+  }
+
+  .forecast-header__main__row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f2f7f9;
+  }
+
+  .forecast-header__main__title {
+    margin: 0;
+    padding: 16px;
+    width: 305px;
+  }
+
+  .forecast-header__main__favorite {
+    z-index: 4;
+  }
+
+  .forecast-header__main__favorite__button {
+    display: flex;
+    padding: 3px 16px 0 0;
+    cursor: pointer;
+  }
+
+  .forecast-header__main__favorite__button__icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .forecast-header__main__favorite__indicator__text {
+    display: none;
+  }
+
+  .forecast-header__nav {
+    display: inline-flex;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 0 0 0 8px;
+  }
+
+  .forecast-header__nav__item__link {
+    margin: 0 24px 0 0;
+  }
+
+  .forecast-header__nav__item__link__chevron {
+    stroke: #333;
+    stroke-width: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 13px;
+    width: 13px;
+  }
+
+  .forecast-header__cam-selector {
+    height: 47px;
+    width: 100%;
+    background-color: var(--tertiary-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .forecast-header__cam-selector__option {
+    cursor: pointer;
+    width: 38px;
+    height: 27px;
+    border-radius: 3px;
+  }
+
+  .forecast-header__cam-selector__option:first-child {
+    margin-right: 16px;
+  }
+
+  .forecast-header__cam-selector--option-active {
+    border: 1px solid var(--tertiary-text-color);
+  }
+
+  .forecast-header__cam-selector__option--single {
+    width: 22px;
+    height: 11px;
+    margin: 8px auto;
+    background-color: var(--tertiary-text-color);
+  }
+
+  .forecast-header__cam-selector__option--multi {
+    background-color: rgba(255, 255, 255, 0.25);
+    float: left;
+    height: 6px;
+    width: 11px;
+  }
+
+  .forecast-header__cam-selector__option--multi:first-child {
+    margin: 7px 1px 1px 8px;
+  }
+  .forecast-header__cam-selector__option--multi:nth-child(2) {
+    margin-top: 7px;
+  }
+  .forecast-header__cam-selector__option--multi:nth-child(3) {
+    clear: left;
+    margin-left: 8px;
+  }
+  .forecast-header__cam-selector__option--multi:nth-child(4) {
+    margin-left: 1px;
+  }
+}
