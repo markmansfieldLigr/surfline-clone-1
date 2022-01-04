@@ -1,19 +1,15 @@
-/*  1 text colors */
-/* 2. base colors */
-
 :root {
-  /* 1. */
-
-  --dark--grey-text: var(--dark--grey);
-
-  /* 2. */
+  /*  theme colors */
   --primary-background-color: #0058b0;
   --primary-background-alt-color: #048;
   --primary-text-color: #fff;
   --accent-background-color: #23d737;
-  --secondary-background: #fff;
-  --secondary-text: #ccc;
-  --secondary-text-alt: #333;
-  --tertiary-background-color:#011d38;
-  --tertiary-text-color: #FFFFFF;
+  --accent-text-color: #fff;
+  --secondary-background-color: #fff;
+  --secondary-text-color: #ccc;
+  --secondary-text-color-alt: #333;
+  --secondary-text-color-light: #f2f7f9;
+  --secondary-text-color-dark: #000;
+  --tertiary-background-color: #011d38;
+  --tertiary-text-color: #ffffff;
 }

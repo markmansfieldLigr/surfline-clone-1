@@ -1,9 +1,5 @@
-/* 1. main */
-/* 2. fonts */
-/* 3. links */
-/* 4. native selectors */
-/* 5. symbols */
-/* 6. lists
+/* 1.  native selectors */
+/* 2. links */
 
 /* 1. */
 body {
@@ -13,61 +9,6 @@ body {
   letter-spacing: 0.4px;
   -webkit-font-smoothing: antialiased;
 }
-
-/* 2. fonts */
-@font-face {
-  font-family: "Futura-Surfline";
-  src: url("../fonts/futura-surfline-regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Source-Sans-Pro";
-  src: url("../fonts/Source-Sans-Pro.woff2") format("woff2");
-}
-.font-default {
-  font-family: "Futura-Surfline", Helvetica, sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
-}
-
-.font-medium {
-  font-family: "Futura-Surfline", Helvetica, sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.5px;
-  line-height: 20.7px;
-  font-weight: 400;
-}
-
-.font-forecast-header__nav {
-  font-family: "Source-Sans-Pro", Helvetica, sans-serif;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-}
-
-.uppercase {
-  text-transform: uppercase;
-}
-
-/* 3. links */
-.link--dark {
-  color: var(--secondary-text-alt);
-}
-
-.link--darker {
-  color: var(--secondary-text-alt);
-}
-
-.link--light {
-  color: var(--primary-text-color);
-}
-
-.favorited {
-  background: var(--primary-background-color);
-  fill: var(--primary-background-color);
-}
-
-/* 4. */
 
 button {
   background: none;
@@ -81,7 +22,38 @@ a {
   text-decoration: none;
 }
 
-/* 5. */
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. links */
+.link-dark {
+  color: var(--secondary-text-color-alt);
+}
+
+.link-darker {
+  color: var(--secondary-text-color-alt);
+}
+
+.link-light {
+  color: var(--primary-text-color);
+}
+
+/* misc. */
+
+.favorited {
+  background: var(--primary-background-color);
+  fill: var(--primary-background-color);
+}
+
 .chevron {
   stroke: #333;
   stroke-width: 2px;
@@ -90,11 +62,4 @@ a {
   height: 13px;
   justify-content: center;
   width: 13px;
-}
-
-/* 6. lists */
-
-ul {
-  list-style-type: none;
-  padding-inline-start: 0px;
 }
